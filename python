@@ -1,0 +1,29 @@
+# z = [{'x':10, 'y': 20}]
+# z[0]['x'] = 15
+# print(z)
+
+x = [[5,2,3], [10,8,9]]
+x[1][0] = 15
+# print(x)
+
+
+# def print_key_value(arr):
+#     for val in arr:
+#         print(val)
+#         f_n_key, l_n_key = val.keys()
+#         first_name_value, last_name_value= val.values()
+#         print(f_n_key + " - " + first_name_value+", "+ l_n_key + " - " + last_name_value )
+
+def iterdict2(key_name, students):
+    for val in students:
+        print(val[key_name])
+
+# testing to see if our function works
+students = [
+     {'first_name':  'Michael', 'last_name' : 'Jordan'},
+     {'first_name' : 'John', 'last_name' : 'Rosales'},
+     {'first_name' : 'Mark', 'last_name' : 'Guillen'},
+     {'first_name' : 'KB', 'last_name' : 'Tonel'}
+]
+# print_key_value(students)
+iterdict2('first_name', students)
