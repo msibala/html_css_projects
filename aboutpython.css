@@ -1,0 +1,229 @@
+*{
+	padding: 0px auto;
+	margin: 0px auto;
+    font-family: sans-serif;
+
+}
+#wrapper{
+    height: 490px;
+    width: 970px;
+    background-color: rgb(36,80,118);
+    color: white;
+
+}
+#topwrapper{
+    height: 95px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.top_left{
+    height: 100px;
+    width: 440px;
+    
+}
+img{
+    height: 100px;
+    width: 440px;
+}
+
+.top_right{
+    height: 100px;
+    width: 440px;
+
+}
+.toprightinfo{
+    color: white;
+    font-family: tahoma;
+    font-size: 12px;
+    text-align: right;
+    
+}
+.toprightinfo > a{
+    color: yellow;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: right;
+}
+#searchbox{
+    height: 35px;
+    width: 205px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 100px;
+    justify-content: center;
+    display: block;
+    border-radius: 10px;
+    background-color: #444444;
+    padding: 15px 7px 4px 10px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+
+}
+#search input{
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-left: 100px;
+    border: 2px solid silver;
+    box-shadow: 1px 1px 1px black;
+    text-align: center;
+    /* why isnt the text align working? */
+}
+text{
+    text-align: center;
+}
+
+#search button{
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    padding: 6px 8px;
+    padding-left: 10px;;
+    border-radius: 5px;
+    background-color: #245176;
+}
+text{
+    float: center;
+}
+
+#navigation{
+    height: 30px;
+    width: 800px;
+    justify-content: center;
+    padding-top: 14px;
+    margin-bottom: 15px;
+    text-decoration:none;
+    background-color: rgb(70,126,173);
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+
+} 
+#navigation > a{
+    color: white;
+    font-size: 20px;
+    font-style: Arial;
+    padding-left: 40px;
+    padding-top: 15px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+
+
+
+
+}    
+#midwrapper{
+    height: 340px;
+    width: 880px;
+    display: flex;
+
+}    
+#midleft{
+    height: 312px;
+    width: 300px;
+    padding-top: 20px;
+    color: white;
+
+}
+
+/* .left-list{
+    list-style: none;
+    list-style-type: none; 
+    margin-left: 100px;
+    color: white; */
+
+
+.mleftinfo:before{
+    color: white;
+    content: ">>";
+    font-size:  14px;
+    font-style: Tahoma;
+    /* how do i manipulate the bullet style? tried out a few ways but didnt work */
+}
+
+#midright{
+    height: 330px;
+    width:600px;
+
+} 
+#midright_blurb{
+    color: white;
+    font-size: 16px;
+  
+ 
+}
+ul{
+    color: rgb(233, 233, 106);
+     list-style: none;
+    content: ">>";
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.8;
+
+}
+p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+.mleftinfo{
+    color: white;
+}
+#midwhite{
+    display: flex;
+    height: 214px;
+    width: 970px;
+
+}
+.midhalves{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    /* how do i eliminate space? */
+   
+}
+h1{
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+
+}
+.midhalves_blurb{
+    color:black;
+    font-size: 12px;
+
+
+}
+ol{
+    color: rgb(67, 117, 196);
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 1.8;
+    text-align: center;
+    content: "▶";
+    text-decoration: none;
+
+}  
+#footer{
+    height: 60px;
+    padding-top: 20px;
+    width:970px;
+    background-color: rgb(44,100,149);
+}
+.footer{
+    color: rgb(106,158,204);
+    font-size: 14px;
+    font-family: Tahoma;
+    display: inline-block;
+    position:relative;
+    padding-left: 140px;
+    padding-top: 15px;
+}
+.footer p{
+    font-size: 14px;
+}
