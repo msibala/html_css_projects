@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#wrapper{
+    width: 1000px;
+    background-color: rgb(75, 96, 219);
+    padding-top: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+
+}
+
+#true-main-body{
+    margin: 0 auto;             
+    padding-top: 10px;
+
+    border: 1px solid red;
+
+}
+
+.navigation{
+    width: 900px;
+    min-height: 80px;
+    background-color: red;
+    padding-left: 15px;
+    padding-top: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+
+}
+p{
+    font-size: 20px;
+    line-height: 24px;
+    color: rgb(223, 217, 217);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+/* } this is supposed to left align text*/
+
+
+ul{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li{
+    font-size:12px;
+
+}
+
+.mainbody{
+    width: 800px;
+    height: 400px;
+    background-color: rgba(32, 31, 31, 0.868);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+
+.linkbox{
+    width: 140px;
+    min-height: 200px;
+    background-color: rgb(92, 176, 218);
+    padding-left: 15px;
+    padding-top: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+
+span{
+    color: #6d80ce;
+}
+
+li{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+#footer-container{
+    padding-top: 10px;
+    border: 1px solid red;
+}
+
+#footnote{
+    width: 800px;
+    height: 200 px;
+    background-color: grey;
+    border-radius: 25px;
+    margin: 0px auto;
+}
+
+p{
+    font-size: 13px;
+}
+
+#home-javascript > li{
+  margin-left: 10px;
+}
+
+
+#box-left-list > li{
+    margin-left: 20px;
+}
