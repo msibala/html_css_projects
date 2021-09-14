@@ -1,0 +1,10 @@
+* 
+{
+    margin: 0px auto;
+    padding: 0px auto;
+
+}
+    .basic-grid {
+        display: grid;
+        gap: 1rem;
+    }

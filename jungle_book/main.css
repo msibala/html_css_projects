@@ -1,0 +1,55 @@
+*
+{
+    margin: 0px auto;
+    padding: 0px auto;
+
+/* @media only screen and (max-width: 480px){ */
+    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+    /* .navbtn {
+        background-color: yellow;
+    } */
+    /* @media only screen and (max-width: 480px){
+        .sm-0 {
+            /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+         
+         
+        /* }
+    @media only screen and (min-width: 481px){
+        .med-1 {
+            width: 25%;
+        }  */
+}
+#container{
+    height: 900px;
+    width: 1000px;
+    background-color: rgb(237,208,193);
+    font-family: 'Dela Gothic One';
+    color: grey;
+}
+
+  
+
+#top_body{
+    height: 250px;
+    width: 980px;
+    border: 2px solid black;
+}
+#body{
+    height: 700px;
+    width: 1000px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.class{
+    height: 400px;
+    width: 310px;
+    border: 2px solid black;
+    margin-top:50px;
+}
+img {
+    border-radius: 4px;
+    height: 300px;
+    width: 300px; 
+
+}
