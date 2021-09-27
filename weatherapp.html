@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather API</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+      $('form').submit(function(){
+          console.log("Submit")
+
+          var Key = "11119a1a5861188247cce710ded2b16d";
+          var cityname = $('#cityname').val();
+          console.log("City name", cityname);
+          var url = "http://api.openweathermap.org/data/2.5/weather?q=" + cityname + "&appid=" + Key + "&units=imperial";
+          console.log("url",url);
+
+        $.get(url, function(response){
+           console.log("RESPONSE", response)
+
+          $('#temp').text("The Current Temp of " + cityname + " is: " + response.main.temp + " degress Farenheit");
+        }, 'json');
+
+
+          return false;
+          
+
+      });
+    });
+    </script>
+  </head>
+  <body>
+      <h2>Weather API</h2>
+      <div class="">
+        <form class="" action="index.html" method="post">
+          <input id="cityname"type="text" name="" value="Enter City Name">
+          <input type="submit" name="" value="Click for current weather">
+        </form>
+      <p id='temp'></p>
+      </div>
+  </body>
+</html>
