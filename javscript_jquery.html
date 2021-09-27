@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JQuery / Javascript lecture</title>
+</head> 
+<body>
+    <p id="first-p">Hello everyone watching!</p>
+    <button id="btn">Click Me!</button>
+
+    <script>
+        var btn= document.getElementById("btn");
+        btn.addEventListener("click",function() {
+        var pTag = document.getElementById("first-p");
+        pTag.style.backgroundColor = "green";    
+
+        })
+
+    </script>
+</body>
+</html>
