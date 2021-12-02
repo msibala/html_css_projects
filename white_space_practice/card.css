@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@100;400&family=Roboto:wght@100&family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 50px;
+}
+
+.card {
+    width: 600px;
+    box-shadow: 0 0 15px rgba(0,0,0 .20);
+    display: flex;
+}
+
+.card__content {
+    padding: 100px 40px;
+    /* pushing things inwards */
+}
+.card__title {
+    font-weight: 800;
+    color: #444;
+    font-size: 35px;
+}
+
+.card__subtitle {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: limegreen;
+}
